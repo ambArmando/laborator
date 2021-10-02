@@ -1,0 +1,1 @@
+Gmail este un SaaS pentru ca nu hostez mailurile pe un server propriu, ci pe serverele companiei Google, eu doar le accesez.
