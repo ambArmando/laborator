@@ -1,7 +1,11 @@
-using Microsoft.WindowsAzure.Storage.Table;
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Microsoft.Azure.Cosmos.Table;
 
-
-namespace AzureDataStorage
+namespace L06_q
 {
     public class StudentEntity : TableEntity
     {
@@ -10,7 +14,7 @@ namespace AzureDataStorage
             this.PartitionKey = university;
             this.RowKey = cnp;
         }
-        public StudentEntity () { }
+        public StudentEntity() { }
 
         public string FirstName { get; set; }
         public string LastName { get; set; }
